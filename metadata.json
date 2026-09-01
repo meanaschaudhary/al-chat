@@ -1,0 +1,7 @@
+{
+  "name": "Al-Chat",
+  "description": "Simple, private, and connected messaging app with real-time chat, groups, media sharing, and modern Material 3 design.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

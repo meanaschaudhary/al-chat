@@ -1,0 +1,40 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer Chat Bubble Glow Container -->
+    <path
+        android:pathData="M30,28h48c7.7,0 14,6.3 14,14v24c0,7.7 -6.3,14 -14,14h-28l-14,12v-12h-6c-7.7,0 -14,-6.3 -14,-14v-24c0,-7.7 6.3,-14 14,-14z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="20"
+                android:startY="28"
+                android:endX="90"
+                android:endY="80"
+                android:type="linear">
+                <item android:color="#00E5FF" android:offset="0.0" />
+                <item android:color="#00B4D8" android:offset="0.5" />
+                <item android:color="#0077B6" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- 'A' Monogram Element inside bubble -->
+    <path
+        android:fillColor="#0D1B2A"
+        android:pathData="M43,40h6l8,22h-5l-1.8,-5.2h-8.4l-1.8,5.2h-5zM48.2,52.8h5.6l-2.8,-8z" />
+
+    <!-- 'C' Monogram Element connected -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M73,46.5c-1.5,-1.6 -3.6,-2.5 -6,-2.5c-4.7,0 -8.5,3.8 -8.5,8.5s3.8,8.5 8.5,8.5c2.4,0 4.5,-0.9 6,-2.5l3.2,3.2c-2.3,2.4 -5.5,3.8 -9.2,3.8c-7.2,0 -13,-5.8 -13,-13s5.8,-13 13,-13c3.7,0 6.9,1.4 9.2,3.8z" />
+
+    <!-- Small active connection pulse dot -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M77,36m-3,0a3,3 0 1,0 6,0a3,3 0 1,0 -6,0" />
+</vector>
+
