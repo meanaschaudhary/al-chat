@@ -598,7 +598,7 @@ fun FileViewerDialog(
           contentAlignment = Alignment.Center
         ) {
           Icon(
-            imageVector = Icons.Default.InsertDriveFile,
+            imageVector = Icons.Default.Description,
             contentDescription = null,
             tint = MaterialTheme.colorScheme.primary,
             modifier = Modifier.size(36.dp)

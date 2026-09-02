@@ -13,6 +13,8 @@ import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.*
+import androidx.compose.material.icons.automirrored.outlined.*
 import androidx.compose.material.icons.filled.*
 import androidx.compose.material.icons.outlined.*
 import androidx.compose.material3.*
@@ -209,7 +211,7 @@ fun MessageBubble(
                 .padding(8.dp)
             ) {
               Icon(
-                imageVector = Icons.Default.InsertDriveFile,
+                imageVector = Icons.Default.Description,
                 contentDescription = "File",
                 tint = if (isOutgoing) Color.White else MaterialTheme.colorScheme.primary,
                 modifier = Modifier.size(28.dp)
@@ -399,7 +401,7 @@ fun MessageActionsDialog(
 
         // Action Options
         ActionMenuItem(
-          icon = Icons.Outlined.Reply,
+          icon = Icons.AutoMirrored.Outlined.Reply,
           title = "Reply",
           tint = MaterialTheme.colorScheme.onSurface,
           onClick = onReply
@@ -413,7 +415,7 @@ fun MessageActionsDialog(
           )
         }
         ActionMenuItem(
-          icon = Icons.Outlined.Forward,
+          icon = Icons.AutoMirrored.Outlined.Forward,
           title = "Forward",
           tint = MaterialTheme.colorScheme.onSurface,
           onClick = onForward
@@ -519,7 +521,7 @@ fun AttachmentBottomSheet(
           }
         )
         AttachmentOptionButton(
-          icon = Icons.Default.InsertDriveFile,
+          icon = Icons.Default.Description,
           title = "Document",
           backgroundColor = Color(0xFF6366F1),
           onClick = {

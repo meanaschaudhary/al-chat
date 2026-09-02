@@ -176,7 +176,7 @@ private fun UserSearchItemCard(
       )
     }
     Icon(
-      imageVector = Icons.Outlined.Chat,
+      imageVector = Icons.AutoMirrored.Filled.Chat,
       contentDescription = "Message",
       tint = MaterialTheme.colorScheme.primary,
       modifier = Modifier.size(22.dp)
@@ -487,7 +487,7 @@ fun GroupInfoScreen(
             .fillMaxWidth()
             .padding(horizontal = 16.dp)
         ) {
-          Icon(Icons.Default.ExitToApp, contentDescription = null)
+          Icon(Icons.AutoMirrored.Filled.ExitToApp, contentDescription = null)
           Spacer(modifier = Modifier.width(8.dp))
           Text("Exit Group")
         }

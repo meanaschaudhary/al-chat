@@ -651,7 +651,7 @@ private fun CallHistoryItem(
           Text(name, style = MaterialTheme.typography.bodyLarge.copy(fontWeight = FontWeight.SemiBold, color = MaterialTheme.colorScheme.onSurface))
           Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(4.dp)) {
             Icon(
-              imageVector = if (isIncoming) Icons.Default.CallReceived else Icons.Default.CallMade,
+              imageVector = if (isIncoming) Icons.Filled.CallReceived else Icons.Filled.CallMade,
               contentDescription = null,
               tint = if (isIncoming) EmeraldOnline else MaterialTheme.colorScheme.primary,
               modifier = Modifier.size(14.dp)

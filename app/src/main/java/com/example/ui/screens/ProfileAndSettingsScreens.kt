@@ -480,7 +480,7 @@ fun SettingsScreen(
       SettingsCategoryHeader(title = "ACCOUNT")
 
       SettingsMenuRow(
-        icon = Icons.Outlined.ExitToApp,
+        icon = Icons.AutoMirrored.Filled.ExitToApp,
         title = "Logout",
         subtitle = "Sign out of this Al-Chat account session",
         tint = MaterialTheme.colorScheme.error,
